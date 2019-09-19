@@ -16,9 +16,9 @@ Enter the following script tags in your ```head``` tag.
 Ensure HLS.js is included before the theta-hls-plugin.
 
 ```html
-<script src="js/theta.js"></script>
-<script src="js/theta-hls-plugin.js"></script>
-<script src="js/videojs-theta-plugin.js"></script>
+<script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta.min.js"></script>
+<script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta-hls-plugin.min.js"></script>
+<script src="https://d1ktbyo67sh8fw.cloudfront.net/js/videojs-theta-plugin.min.js"></script>
 ```
 
 ### Theta Wallet token generator
