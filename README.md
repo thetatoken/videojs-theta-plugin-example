@@ -51,6 +51,7 @@ Note: If you do not have a secret key to generate a Theta Wallet access token, p
 
 ```html
 <script>
+  const optionalHlsOpts = null;
   const player = window.player = videojs('my-player', {
           techOrder: ["theta_hlsjs", "html5"],
           sources: [{
@@ -63,7 +64,7 @@ Note: If you do not have a secret key to generate a Theta Wallet access token, p
               userId: "YOUR_AUTHED_USER_ID",
               walletUrl: "wss://api-wallet-service.thetatoken.org/theta/ws",
               onWalletAccessToken: getWalletAccessToken,
-              hlsOpts: hlsOpts
+              hlsOpts: optionalHlsOpts
           }
       });
 </script>
