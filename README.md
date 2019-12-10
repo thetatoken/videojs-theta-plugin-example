@@ -70,6 +70,13 @@ Note: If you do not have a secret key to generate a Theta Wallet access token, p
 </script>
 ```
 
+### Toggle CDN Only
+
+Sometimes you want to only allow CDN (user pref, etc).  This code will enable or disable CDN only mode.
+```js
+myPlayer.tech_.trigger('toggleUseCDN');
+```
+
 ## License
 
 Copyright (c) Theta Labs, Inc.
