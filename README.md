@@ -16,8 +16,8 @@ Enter the following script tags in your ```head``` tag.
 Ensure HLS.js is included before the theta-hls-plugin.
 
 ```html
-<script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta.min.js"></script>
-<script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta-hls-plugin.min.js"></script>
+<script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta.umd.min.js"></script>
+<script src="https://d1ktbyo67sh8fw.cloudfront.net/js/theta-hls-plugin.umd.min.js"></script>
 <script src="https://d1ktbyo67sh8fw.cloudfront.net/js/videojs-theta-plugin.min.js"></script>
 ```
 
